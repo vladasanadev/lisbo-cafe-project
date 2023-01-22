@@ -2,3 +2,37 @@ h1 {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-color: rgba(70, 69, 69, 0.349);
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("./images/equador.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+  text-align: center;
+  padding: 250px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+button {
+  padding: 20px 30px;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+p {
+  text-align: center;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 40px 0;
+  }
+}
